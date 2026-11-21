@@ -27,14 +27,14 @@ The main objectives are:
 | `delete.c` | Deletes student records using roll number or name. |
 | `deleteall.c` | Deletes all student records and releases allocated memory. |
 | `show.c` | Displays student records in a formatted tabular structure. |
-| `mod.c` / `stud_mod.c` | Modifies student details using roll number, name, or percentage. |
+| `stud_mod.c` | Modifies student details using roll number, name, or percentage. |
 | `sort.c` | Sorts student records alphabetically by name or by percentage in descending order. |
 | `reverse.c` | Reverses the singly linked list by changing node links. |
 | `save.c` | Saves student records into `student.dat` and loads records when the application starts. |
 | `getroll.c` | Generates the smallest available positive roll number. |
 | `search.c` | Supports searching student records. |
 | `count.c` | Counts the total number of student records. |
-| `main.c` / `driver_.c` | Contains the main menu and controls the overall program execution. |
+| `main.c`| Contains the main menu and controls the overall program execution. |
 | `header.h` | Contains structure definitions and function prototypes. |
 | `makefile` | Automates compilation of all source modules (if available). |
 | `student.dat` | Stores student records permanently. |
